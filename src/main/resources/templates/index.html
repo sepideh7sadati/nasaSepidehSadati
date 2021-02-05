@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Home</title>
+    <div th:replace="fragment/layout::head"></div>
+</head>
+<body>
+
+<div th:replace="fragment/layout::header"></div>
+
+<div class="container-fluid mt-3 pl-5 pr-5" style="background-color: gray">
+
+    <a class="text-dark" href="#" th:each="camera : ${camera}">
+        <div class="card mr-3 mb-4" style="width: 17rem; float: left; ">
+
+            <div class="card-body">
+                <h5 class="card-title" th:text="${camera.getAbbreviation()}"></h5>
+                <p class="card-text text-truncate" th:text="${camera.getTitle()}">
+                </p>
+            </div>
+            <div class="card-footer">
+                <p class="text-center small text-muted m-0 p-0"></p>
+            </div>
+        </div>
+    </a>
+</div>
+
+</body>
+</html>
