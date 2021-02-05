@@ -1,5 +1,5 @@
 
-package ir.sepidehSadati.nasa.modeleses.model;
+package ir.sepidehSadati.nasa.project.model;
 
 import com.fasterxml.jackson.annotation.*;
 import lombok.Data;
@@ -7,24 +7,25 @@ import lombok.Data;
 import java.util.HashMap;
 import java.util.Map;
 
-
 /**
  * @author sepideh sadati
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @Data
-public class Rover {
+public class Photo {
 
     @JsonProperty("id")
     private Integer id;
-    @JsonProperty("name")
-    private String name;
-    @JsonProperty("landing_date")
-    private String landingDate;
-    @JsonProperty("launch_date")
-    private String launchDate;
-    @JsonProperty("status")
-    private String status;
+    @JsonProperty("sol")
+    private Integer sol;
+    @JsonProperty("camera")
+    private Camera camera;
+    @JsonProperty("img_src")
+    private String imgSrc;
+    @JsonProperty("earth_date")
+    private String earthDate;
+    @JsonProperty("rover")
+    private Rover rover;
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 

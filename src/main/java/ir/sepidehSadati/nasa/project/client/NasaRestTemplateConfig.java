@@ -1,6 +1,6 @@
-package ir.sepidehSadati.nasa.modeleses.client;
+package ir.sepidehSadati.nasa.project.client;
 
-import ir.sepidehSadati.nasa.modeleses.repo.ApiRequestRepo;
+import ir.sepidehSadati.nasa.project.repo.ApiRequestRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,11 +1,11 @@
-package ir.sepidehSadati.nasa.modeleses.services;
+package ir.sepidehSadati.nasa.project.services;
 
 
-import ir.sepidehSadati.nasa.modeleses.client.NasaClient;
-import ir.sepidehSadati.nasa.modeleses.entity.CameraEntity;
-import ir.sepidehSadati.nasa.modeleses.model.Photo;
-import ir.sepidehSadati.nasa.modeleses.model.SearchCriteria;
-import ir.sepidehSadati.nasa.modeleses.repo.CameraRepo;
+import ir.sepidehSadati.nasa.project.client.NasaClient;
+import ir.sepidehSadati.nasa.project.entity.CameraEntity;
+import ir.sepidehSadati.nasa.project.model.Photo;
+import ir.sepidehSadati.nasa.project.model.SearchCriteria;
+import ir.sepidehSadati.nasa.project.repo.CameraRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

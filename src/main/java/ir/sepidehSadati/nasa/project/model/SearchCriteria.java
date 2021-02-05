@@ -1,4 +1,4 @@
-package ir.sepidehSadati.nasa.modeleses.model;
+package ir.sepidehSadati.nasa.project.model;
 
 import lombok.Data;
 

@@ -1,6 +1,6 @@
-package ir.sepidehSadati.nasa.modeleses.repo;
+package ir.sepidehSadati.nasa.project.repo;
 
-import ir.sepidehSadati.nasa.modeleses.entity.CameraEntity;
+import ir.sepidehSadati.nasa.project.entity.CameraEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.web.bind.annotation.ResponseBody;
 

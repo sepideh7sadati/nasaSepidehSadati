@@ -1,4 +1,4 @@
-package ir.sepidehSadati.nasa.modeleses.entity;
+package ir.sepidehSadati.nasa.project.entity;
 
 import lombok.Data;
 

@@ -1,7 +1,7 @@
-package ir.sepidehSadati.nasa.modeleses.client;
+package ir.sepidehSadati.nasa.project.client;
 
-import ir.sepidehSadati.nasa.modeleses.model.NasaPhotos;
-import ir.sepidehSadati.nasa.modeleses.model.SearchCriteria;
+import ir.sepidehSadati.nasa.project.model.NasaPhotos;
+import ir.sepidehSadati.nasa.project.model.SearchCriteria;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;

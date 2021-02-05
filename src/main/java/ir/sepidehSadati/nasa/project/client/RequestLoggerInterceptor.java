@@ -1,7 +1,7 @@
-package ir.sepidehSadati.nasa.modeleses.client;
+package ir.sepidehSadati.nasa.project.client;
 
-import ir.sepidehSadati.nasa.modeleses.entity.ApiRequestEntity;
-import ir.sepidehSadati.nasa.modeleses.repo.ApiRequestRepo;
+import ir.sepidehSadati.nasa.project.entity.ApiRequestEntity;
+import ir.sepidehSadati.nasa.project.repo.ApiRequestRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpRequest;
 import org.springframework.http.client.ClientHttpRequestExecution;
